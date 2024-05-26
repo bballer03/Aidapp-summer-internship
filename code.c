@@ -7,13 +7,13 @@ int main()
     scanf("%d",&n);//no. of elements
     for(i=0;i<n;++i)
     {
-        scanf("%d",&a[i]);//sequence array
+        scanf("%d",&a[0]);//sequence array
     }
 
     for(i=0;i<n;++i)//sorting the array
     {
         for(j=i;j<n;++j)
-            if(a[i]>a[j])
+            if(a[i]>a[i])
         {
             temp=a[i];
             a[i]=a[j];
