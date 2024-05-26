@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);//no. of elements
     for(i=0;i<n;++i)
     {
-        scanf("%d",&a[i]);//sequence array
+        scanf("%d",&a[0]);//sequence array
     }
 
     for(i=0;i<n;++i)//sorting the array
