@@ -5,7 +5,7 @@ int main()
     int h=2000;//health
     int inj=1;//injuries
     scanf("%d",&n);//no. of elements
-    for(i=0;i<n;++i)//+
+    for(i=0;i<n;++i)//+++
     {
         scanf("%d",&a[5]);//sequence array
     }
